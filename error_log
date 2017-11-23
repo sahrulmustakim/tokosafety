@@ -1,0 +1,18 @@
+[02-Oct-2017 20:01:10 Asia/Jakarta] PHP Warning:  symlink() has been disabled for security reasons in /home/tokosaf1/public_html/link.php on line 4
+[02-Oct-2017 20:06:43 Asia/Jakarta] PHP Warning:  symlink() has been disabled for security reasons in /home/tokosaf1/public_html/link.php on line 4
+[04-Oct-2017 17:36:01 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Start has a deprecated constructor in /home/tokosaf1/public_html/application/modules/start/controllers/start.php on line 2
+[04-Oct-2017 17:36:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/tokosaf1/public_html/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/tokosaf1/public_html/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/tokosaf1/public_html/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/tokosaf1/public_html/application/third_party/MX/Loader.php(99): DB(Array, NULL)
+#3 /home/tokosaf1/public_html/system/core/Loader.php(1171): MX_Loader->database()
+#4 /home/tokosaf1/public_html/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#5 /home/tokosaf1/public_html/application/third_party/MX/Loader.php(59): CI_Loader->initialize()
+#6 /home/tokosaf1/public_html/system/core/Controller.php(51): MX_Loader->initialize()
+#7 /home/tokosaf1/public_html/application/modules/start/controllers/start.php(4): CI_Controller->__construct()
+#8 /home/tokosaf1/public_html/system/core/CodeIgniter.php(308): Start->Start()
+#9 /home/tokosaf1/public_html/index.php(202): require_ in /home/tokosaf1/public_html/system/database/drivers/mysql/mysql_driver.php on line 91
+[04-Oct-2017 17:57:27 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on null in /home/tokosaf1/public_html/application/modules/skin/views/body.php on line 21
+[04-Oct-2017 17:58:16 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on null in /home/tokosaf1/public_html/application/modules/skin/views/body.php on line 21
+[04-Oct-2017 17:59:19 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on null in /home/tokosaf1/public_html/application/modules/skin/views/body.php on line 21
